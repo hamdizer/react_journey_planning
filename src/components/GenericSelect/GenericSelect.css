@@ -1,0 +1,25 @@
+.scroll-container {
+  width: 100%;
+  max-height: 32rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #4a5568 #cbd5e0;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 6px;
+  height: 10px !important;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #4a5568;
+  border-radius: 3px;
+  height: 10px;
+
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background-color: #cbd5e0;
+  height: 10px;
+
+}
